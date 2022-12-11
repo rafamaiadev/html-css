@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+:root {
+    --fonte1: Verdana, Tahoma, sans-serif;
+    --fonte2: 'Passion One';
+    --fonte3: 'Sriracha';
+}
+ 
+html, body {
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    font-family: var(--fonte2);
+}
+
+header h1 {
+    color: white;
+    font-variant: small-caps;
+    font-size: 9vw;
+    padding-top: 50px;
+    text-align: center;
+    
+}
+
+header p {
+    text-align: center;
+    font-family: var(--fonte1);
+    font-weight: normal;
+    color: white;
+    margin-bottom: 70px;
+    padding-bottom: 20px;
+
+      
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    
+     
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 4.5vw;
+}
+
+#img2 {
+    background-image:url(../imagens/background002.jpg);
+    background-attachment: fixed;
+
+}
+
+#img2 p {
+   background-color: rgba(0, 0, 0, 0.493);
+   display: inline-block;
+   color: white;
+   box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
+   background-size: cover;   
+}
+
+#img1  {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img1 p {
+    background-color: rgba(0, 0, 0, 0.514);
+    display: inline-block;
+    color: white;
+}
+
+footer {
+    height: 20px;
+    background-color: black;
+    text-align: center;
+    color: white;
+
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    padding-top: 3px;
+    
+}
