@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css"> 
+    <link rel="stylesheet" href="estilos/telas.css"> 
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <nav id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2> <br>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolores adipisci quos quae, dolore obcaecati et fugiat rerum consectetur rem eligendi fugit quod vero sed voluptatum harum doloremque reprehenderit mollitia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi magnam rerum, praesentium molestias, incidunt et porro, ipsa laborum odio commodi saepe magni officia soluta quasi consequatur unde quas molestiae! Porro?</p> <br>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum sint minima alias dolorum deleniti minus perspiciatis deserunt. Debitis eos voluptas sequi voluptatem reiciendis, voluptate itaque et ducimus magnam quod laborum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, quos? Hic porro maxime non consequatur expedita autem aspernatur vel, quia amet nihil modi! Laboriosam eligendi, recusandae earum quae praesentium voluptatum.</p> <br>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur hic debitis nisi harum ducimus officiis eius delectus laborum, neque culpa veniam quibusdam voluptates unde cum enim animi modi quidem soluta. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, quod amet earum possimus quo eum numquam quibusdam ea quis nisi nobis nihil explicabo maxime. Sapiente, corrupti adipisci? Dignissimos, voluptatibus natus.</p> <br>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+
+        }
+    </script>
+</body>
+</html>
